@@ -14,9 +14,16 @@ var a=CurrentAccount("KCB",20000,"2367862412")
 }
 // no 1
 class CurrentAccount(var accName:String,var accBal:Int,var accNo:String)
+open class currentAccount(var account:Double,var name:String,var balance:Int,var withdraw:Int){
 fun deposit(amount: Double) {
-    var sum=amount
-    println(sum)
+        account+=amount
+        account++
+        println(account)
+
+    }
+    fun withdraw(amount:Double) {
+        account -= balance
+        println(amount)
 }
 class currentAccount(var accName:String,var accBal:Int,var accNo:String,var withdrawals:Int){
 }
