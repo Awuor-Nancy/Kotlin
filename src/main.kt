@@ -3,6 +3,9 @@ import java.time.temporal.TemporalAmount
 fun main() {
     //no 1
 var a=CurrentAccount("KCB",20000,"2367862412")
+ a.deposit(500.0)
+a.withdraw(300.0)
+a.details("Mercy","1123567KWR",800.0)
 
     // no.3
 
